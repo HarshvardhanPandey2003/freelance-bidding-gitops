@@ -19,7 +19,7 @@ spec:
       containers:
       - name: backend
         image: localhost:5000/freelance-backend:23995858838
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         resources:
           requests:
             cpu: "100m"
