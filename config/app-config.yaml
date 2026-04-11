@@ -4,7 +4,7 @@ metadata:
   name: app-config
   namespace: freelance-hub
 data:
-  REDIS_URI: "redis://10.103.240.221:6379"
+  REDIS_URI: "redis://redis-service.freelance-hub.svc.cluster.local:6379"
   JWT_EXPIRES_IN: "1d"
   NODE_ENV: "production"
   FRONTEND_URL: "http://freelance.local"
