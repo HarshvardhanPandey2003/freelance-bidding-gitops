@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: localhost:5000/freelance-backend:f845ef7
+        image: localhost:5000/freelance-backend:e85a971
         imagePullPolicy: Always
         resources:
           requests:
